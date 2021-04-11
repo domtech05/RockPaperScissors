@@ -51,7 +51,6 @@ def computer_choice_rock(): #CPU selects rock
         print("\nTry again")
         computer_choice_rock()
 def computer_choice_paper(): #   CPU selects paper
-    #   CPU selects paper
     global scpu
     global splayer
     user_choice = int(input("1 for rock, 2 for paper, 3 for scissors: "))
